@@ -41,8 +41,14 @@
 						"scripts/virtualbox.sh",
 						"scripts/vagrant.sh",
 						"scripts/dep.sh",
+						"scripts/install/apt-keys.sh",
+						"scripts/install/apt-packages.sh",
+						"scripts/install/create-subvolumes.sh",
+						"scripts/install/install-docker.sh",
+						"scripts/install/install-etcd.sh",
 						"scripts/cleanup.sh",
 						"scripts/zerodisk.sh"
+
 					]
 				}
 			}
