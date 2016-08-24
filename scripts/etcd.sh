@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ETCD_VERSION=v2.1.3
+ETCD_VERSION=v2.3.7
 
 echo "installing etc version $ETCD_VERSION"
 
