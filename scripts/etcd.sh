@@ -14,7 +14,7 @@ rm -f /tmp/etcd-${ETCD_VERSION}-linux-amd64.tar.gz
 # write upstart start script
 cat << 'EOF' >> /etc/init/etcd.conf
 description "CES etcd container"
-author "Sebastian Sdorra <sebastian.sdorra@triology.de>"
+author "Sebastian Sdorra <sebastian.sdorra@cloudogu.com>"
 start on starting docker
 stop on (runlevel [!2345] and stopped docker)
 respawn
